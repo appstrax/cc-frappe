@@ -25,6 +25,7 @@ bench set-redis-socketio-host redis-capsule-yndv.erp-next-staging-eiho:6379
 sed -i '/redis/d' ./Procfile
 sed -i '/watch/d' ./Procfile
 
+bench migrate 
 bench get-app erpnext
 bench get-app hrms
 
