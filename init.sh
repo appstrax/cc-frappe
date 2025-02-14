@@ -16,7 +16,7 @@ bench init --skip-redis-config-generation frappe-bench
 cd frappe-bench
 
 # Use containers instead of localhost
-bench set-mariadb-host mysql-capsule-kapw-mysql-master.erp-next-staging-eiho.svc.cluster.local:3306
+bench set-mariadb-host mysql-capsule-kapw-mysql-master.erp-next-staging-eiho.svc.cluster.local
 bench set-redis-cache-host redis-capsule-yndv.erp-next-staging-eiho:6379
 bench set-redis-queue-host redis-capsule-yndv.erp-next-staging-eiho:6379
 bench set-redis-socketio-host redis-capsule-yndv.erp-next-staging-eiho:6379
