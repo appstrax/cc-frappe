@@ -38,6 +38,7 @@ bench --site erp-next-qnxo.codecapsules.co.za install-app hrms
 bench --site erp-next-qnxo.codecapsules.co.za set-config developer_mode 1
 bench --site erp-next-qnxo.codecapsules.co.za enable-scheduler
 bench --site erp-next-qnxo.codecapsules.co.za clear-cache
+bench --site erp-next-qnxo.codecapsules.co.za migrate
 bench use erp-next-qnxo.codecapsules.co.za
 
 bench start
